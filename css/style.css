@@ -1,5 +1,5 @@
 body {
-    font-family: cursive, serif;
+    font-family: monospace, sans-serif;
     color: cornflowerblue;
     text-align: center;
 }
@@ -16,7 +16,7 @@ a {
 .main .white {
     display: grid;
     justify-items: center;
-    padding: 70px 50px;
+    padding: 70px 50px 35px 50px;
     background-color:aliceblue;
     border-radius: 25px;
     margin: 50px 25px 25px 25px;
