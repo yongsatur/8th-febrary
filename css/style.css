@@ -1,0 +1,58 @@
+body {
+    font-family: cursive, serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main .white {
+    display: grid;
+    justify-items: center;
+    padding: 70px 50px;
+    background-color:aliceblue;
+    border-radius: 25px;
+    margin: 50px 25px 25px 25px;
+}
+.main .white h1 {
+    font-size: 17px;
+    margin: 0 0 35px 0;
+}
+.main .white img {
+    height: 130px;
+    margin-bottom: 35px;
+    border: cornflowerblue 2px dashed;
+    border-radius: 15px;
+}
+.main .white a button {
+    padding: 15px 25px;
+    color: cornflowerblue;
+    background-color: transparent;
+    border: 2px solid cornflowerblue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.main .white a button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright {
+    padding: 15px 0;
+}
+.copyright p {
+    font-size: 11px;
+    margin: 0;
+}
+.copyright p a strong {
+    color:goldenrod;
+}
