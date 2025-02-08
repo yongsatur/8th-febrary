@@ -36,6 +36,7 @@ a {
     color: cornflowerblue;
     background-color: transparent;
     border: 2px solid cornflowerblue;
+    font-family: monospace, sans-serif;
     font-size: 15px;
     font-weight: bold;
     border-radius: 15px;
